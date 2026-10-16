@@ -1,0 +1,40 @@
+/* 헤더 */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.banner {
+    background: linear-gradient(to top, white, purple);
+    color: #fff;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products ul {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.products li {
+        position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    color: #fff;
+}
